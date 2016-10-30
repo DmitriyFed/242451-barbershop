@@ -36,7 +36,8 @@
        </section>
         
         <div class="index-content-left">
-          <h2 class="index-content-title">Производители:</h2>
+         <fieldset>
+          <legend>Производители:</legend>
           <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
             <label><input type="checkbox" name="firma" value="BAXTER OF CALIFORNIA">BAXTER OF CALIFORNIA</label><br>
              <label><input type="checkbox" name="firma" value="MR NATTY">MR NATTY</label><br>
@@ -44,33 +45,43 @@
                <label><input type="checkbox" name="firma" value="MALIN+GOETZ">MALIN+GOETZ</label><br>
                 <label><input type="checkbox" name="firma" value="MURRAY'S">MURRAY'S</label><br>
                  <label><input type="checkbox" name="firma" value="AMERICAN CREW">AMERICAN CREW</label><br>
-          </form>
+           </form>
+          </fieldset>
           </div>
         </div>
       </div>
       <div class="index-content">
         <div class="index-content-left">
-          <h2 class="index-content-title">Группы товаров:</h2>
+         <fieldset>
+          <legend>Группы товаров:</legend>
            <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
             <label><input type="radio" name="gruop" value="britva">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
              <label><input type="radio" name="group" value="sredstva">СРЕДСТВА ДЛЯ УХОДА</label><br>
               <label><input type="radio" name="group" value="acss">АКСЕССУАРЫ</label><br>
          
-          </form>
+           </form>
+          </fieldset>
         </div>
         <div class="catalog">
+         <div class="catalog-1">
            <article class="item-shop">
               <figure>
-                <img src="http://placehold.it" width="220" height="165" alt="Товар-1">
+                <a href="#">
+                 <img src="http://placehold.it" width="220" height="165" alt="Товар-1">
+                </a>
               </figure>
+              <div class="item-description">
                 <h3>Baxter of california</h3>
                   <p>Набор для путешествий</p>
                      <div class="price-item">2 900 руб.
                      <button class="btn btn-shop">Купить</button>
+               </div>      
           	</article>
           	<article class="item-shop">
               <figure>
-                <img src="http://placehold.it" width="220" height="165" alt="Товар-2">
+                <a href="#">
+                 <img src="http://placehold.it" width="220" height="165" alt="Товар-2">
+                </a>  
               </figure>
                 <h3>Baxter of california</h3>
                   <p>Увлажняющий кондиционер</p>
@@ -79,7 +90,9 @@
           	</article>
           	  <article class="item-shop">
               <figure>
-                <img src="http://placehold.it" width="220" height="165" alt="Товар-3">
+                <a href="#">
+                 <img src="http://placehold.it" width="220" height="165" alt="Товар-3">
+                </a>
               </figure>
                 <h3>Sauvecito</h3>
                   <p>Гель для волос</p>
@@ -88,7 +101,9 @@
           	</article>
           	<article class="item-shop">
               <figure>
-                <img src="http://placehold.it" width="220" height="165" alt="Товар-4">
+                <a href="#">
+                 <img src="http://placehold.it" width="220" height="165" alt="Товар-4">
+                </a>
               </figure>
                 <h3>American crew</h3>
                   <p>Глина для укладки волос</p>
@@ -97,7 +112,9 @@
           	</article>
           	  <article class="item-shop">
               <figure>
-                <img src="http://placehold.it" width="220" height="165" alt="Товар-5">
+                <a href="#">
+                 <img src="http://placehold.it" width="220" height="165" alt="Товар-5">
+                </a>
               </figure>
                 <h3>American crew</h3>
                   <p>Гель для волос</p>
@@ -106,21 +123,24 @@
           	</article>
           	<article class="item-shop">
               <figure>
-                <img src="http://placehold.it" width="220" height="165" alt="Товар-6">
+                <a href="#">
+                 <img src="http://placehold.it" width="220" height="165" alt="Товар-6">
+                </a>
               </figure>
                 <h3>Baxter of california</h3>
                   <p>Набор для бритья</p>
                      <div class="price-item">3 900 руб.
                      <button class="btn btn-shop">Купить</button>
           	</article>
-        <div class="paginator">
-        <ul>
-          <li><a href="#">page1</a></li>
-          <li class="current-shop"><a href="#">page2</a></li>
-          <li><a href="#">page3</a></li>
-          <li><a href="#">page4</a></li>
-        </ul>
-    </div>
+        <div class="pagination">
+          <ul>
+           <li><a href="#">1</a></li>
+           <li class="current-shop"><a href="#">2</a></li>
+           <li><a href="#">3</a></li>
+           <li><a href="#">4</a></li>
+          </ul>
+        </div>
+       </div>
       </div>
     </main>
     <footer class="main-footer">
