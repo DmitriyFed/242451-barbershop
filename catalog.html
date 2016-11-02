@@ -35,21 +35,21 @@
           </ul>
        </section>
         
-        <div class="index-content-left">
+        <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
          <fieldset>
           <legend>Производители:</legend>
-          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
-            <label><input type="checkbox" name="firma" value="BAXTER OF CALIFORNIA">BAXTER OF CALIFORNIA</label><br>
-             <label><input type="checkbox" name="firma" value="MR NATTY">MR NATTY</label><br>
-              <label><input type="checkbox" name="firma" value="SUAVECITO">SUAVECITO</label><br>
-               <label><input type="checkbox" name="firma" value="MALIN+GOETZ">MALIN+GOETZ</label><br>
-                <label><input type="checkbox" name="firma" value="MURRAY'S">MURRAY'S</label><br>
-                 <label><input type="checkbox" name="firma" value="AMERICAN CREW">AMERICAN CREW</label><br>
-           </form>
+          
+            <input type="checkbox" id="check1"><label for="check1">BAXTER OF CALIFORNIA</label>
+             <input type="checkbox" id="check2"><label for="check2">MR NATTY</label>
+              <input type="checkbox" id="check3"><label for="check3">SUAVECITO</label>
+               <input type="checkbox" id="check4"><label for="check4">MALIN+GOETZ</label>
+                <input type="checkbox" id="check5"><label for="check5">MURRAY'S</label>
+                 <input type="checkbox" id="check6"><label for="check6">AMERICAN CREW</label>
+           
           </fieldset>
-          </div>
+          </form>
         </div>
-      </div>
+      
       <div class="index-content">
         <div class="index-content-left">
          <fieldset>
@@ -58,12 +58,11 @@
             <label><input type="radio" name="gruop" value="britva">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label><br>
              <label><input type="radio" name="group" value="sredstva">СРЕДСТВА ДЛЯ УХОДА</label><br>
               <label><input type="radio" name="group" value="acss">АКСЕССУАРЫ</label><br>
-         
            </form>
           </fieldset>
         </div>
         <div class="catalog">
-         <div class="catalog-1">
+         <div class="catalog-list">
            <article class="item-shop">
               <figure>
                 <a href="#">
@@ -71,10 +70,8 @@
                 </a>
               </figure>
               <div class="item-description">
-                <h3>Baxter of california</h3>
-                  <p>Набор для путешествий</p>
-                     <div class="price-item">2 900 руб.
-                     <button class="btn btn-shop">Купить</button>
+                <h3 class="item-title"><a href="#"><span class="item-name">Baxter of california</span> Набор для путешествий</a></h3>
+                     <div class="price-item-page"><span class="price-item">2 900 руб.</span><a href="#">Купить</a></div>
                </div>      
           	</article>
           	<article class="item-shop">
@@ -83,10 +80,10 @@
                  <img src="http://placehold.it" width="220" height="165" alt="Товар-2">
                 </a>  
               </figure>
-                <h3>Baxter of california</h3>
-                  <p>Увлажняющий кондиционер</p>
-                     <div class="price-item">750 руб.
-                     <button class="btn btn-shop">Купить</button>
+                <h3 class="item-title"><a href="#"><span class="item-name">Baxter of california</span>
+                  Увлажняющий кондиционер</a></h3>
+                     <div class="price-item-page"><span class="price-item">750 руб.
+                     </span><a href="#">Купить</a></div>
           	</article>
           	  <article class="item-shop">
               <figure>
@@ -94,10 +91,10 @@
                  <img src="http://placehold.it" width="220" height="165" alt="Товар-3">
                 </a>
               </figure>
-                <h3>Sauvecito</h3>
-                  <p>Гель для волос</p>
-                     <div class="price-item">290 руб.
-                     <button class="btn btn-shop">Купить</button>
+                <h3 class="item-title"><a href="#"><span class="item-name">Sauvecito</span>
+                  Гель для волос</a></h3>
+                     <div class="price-item-page"><span class="price-item">290 руб.
+                    </span><a href="#">Купить</a></div>
           	</article>
           	<article class="item-shop">
               <figure>
@@ -105,10 +102,10 @@
                  <img src="http://placehold.it" width="220" height="165" alt="Товар-4">
                 </a>
               </figure>
-                <h3>American crew</h3>
-                  <p>Глина для укладки волос</p>
-                     <div class="price-item">500 руб.
-                     <button class="btn btn-shop">Купить</button>
+                <h3 class="item-title"><a href="#"><span class="item-name">American crew</span>
+                  Глина для укладки волос</a></h3>
+                     <div class="price-item-page"><span class="price-item">500 руб.
+                     </span><a href="#">Купить</a></div>
           	</article>
           	  <article class="item-shop">
               <figure>
@@ -116,10 +113,10 @@
                  <img src="http://placehold.it" width="220" height="165" alt="Товар-5">
                 </a>
               </figure>
-                <h3>American crew</h3>
-                  <p>Гель для волос</p>
-                     <div class="price-item">300 руб.
-                     <button class="btn btn-shop">Купить</button>
+                <h3 class="item-title"><a href="#"><span class="item-name">American crew</span>
+                  Гель для волос</a></h3>
+                     <div class="price-item-page"><span class="price-item">300 руб.
+                     </span><a href="#">Купить</a></div>
           	</article>
           	<article class="item-shop">
               <figure>
@@ -127,21 +124,22 @@
                  <img src="http://placehold.it" width="220" height="165" alt="Товар-6">
                 </a>
               </figure>
-                <h3>Baxter of california</h3>
-                  <p>Набор для бритья</p>
-                     <div class="price-item">3 900 руб.
-                     <button class="btn btn-shop">Купить</button>
+                <h3 class="item-title"><a href="#"><span class="item-name">Baxter of california</span>
+                  Набор для бритья</a></h3>
+                     <div class="price-item-page"><span class="price-item">3 900 руб.
+                     </span><a href="#">Купить</a></div>
           	</article>
-        <div class="pagination">
-          <ul>
+        
+          <ul class="pagination">
            <li><a href="#">1</a></li>
            <li class="current-shop"><a href="#">2</a></li>
            <li><a href="#">3</a></li>
            <li><a href="#">4</a></li>
           </ul>
-        </div>
+        
        </div>
       </div>
+    </div>
     </main>
     <footer class="main-footer">
       <div class="container">
